@@ -1,9 +1,9 @@
 import { Server } from "socket.io";
 
 const io= new Server(process.env.PORT, {
-//     cors: {
-//         origin : "http://localhost:3000"
-//     }
+    cors: {
+        origin : "https://astonishing-kashata-9fb5a2.netlify.app"
+    }
 })
 
 let users = [];
