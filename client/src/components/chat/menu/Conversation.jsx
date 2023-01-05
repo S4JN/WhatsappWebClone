@@ -41,7 +41,7 @@ function Conversation({ user }) {
                 </Container>
                 <Box>
                     <Text>
-                        {message?.text?.includes("localhost") ? "media" : message.text}
+                        {message?.text?.includes("https://whatsappwebbbb.onrender.com") ? "media" : message.text}
                     </Text>
                 </Box>
             </Box>

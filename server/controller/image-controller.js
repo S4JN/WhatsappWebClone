@@ -2,7 +2,7 @@ import grid from "gridfs-stream";
 import mongoose from "mongoose";
 
 
-const url = "http://localhost:8000";
+const url = "https://whatsappwebbbb.onrender.com";
 let gfs,gridFsBucket;
 const conn = mongoose.connection;
 conn.once("open", () => {
